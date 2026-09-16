@@ -5,8 +5,6 @@
 
 1. Escreva um programa que receba uma entrada do utilizador e escreva `Bem vindo <nome>`, trocando o nome pela entrada.
 
-1. Escreva um programa que receba `x` e calcule `y = 3*x + x**4`.
-
 1. Escreva um programa que receba dois números do utilizador e multiplique um pelo outro.
 
 1. Escreva um programa que receba `x` e calcule `y = 3*x + x**4`
