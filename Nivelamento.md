@@ -48,7 +48,7 @@
 | Caegoria | Idade |
 | --- | --- |
 | Infantil A | 5 - 7 anos |
-| Infantil A | 8 - 10 anos |
+| Infantil B | 8 - 10 anos |
 | Juvenil A | 11 - 13 anos |
 | Juvenil B | 14 - 17 anos |
 | Sênior| maiores de 18 anos |
