@@ -81,7 +81,6 @@ Escreva um programa que possa entrar com nome do produto e valor da compra e imp
 
 ## Estruturas de repetição
 
-
 1. Escreva um programa que mostre os números de 1 até 100, e de 100 até 1.
 
 2. Escreva um programa que mostre os todos os múltiplos de 10, de 1 até 10000.
@@ -145,3 +144,69 @@ Ao final apresente:
 22. Uma rainha requisitou os serviços de um monge e disse-lhe que pagaria qualquer preço. O monge, necessitando de alimentos, perguntou à rainha se o pagamento poderia ser feito com grãos de trigo dispostos em um tabuleiro de xadrez, de tal forma que o primeiro quadro contivesse apenas um grão e os quadros subsequentes, o dobro do quadro anterior. A rainha considerou o pagamento barato e pediu que o serviço fosse executado, sem se dar conta de que seria impossível efetuar o pagamento. Escreva um programa que calcule  o número de grãos que o monge esperava receber.
 
 23. Um marciano chegou a uma floresta e se escondeu atrás de uma das 100 árvores quando viu um caçador. O caçador só tinha cinco balas em sua espingarda. Cada vez que ele atirava, e não acertava, é claro, o marciano dizia: estou mais à direita ou estou mais à esquerda. Se o caçador não conseguir acertar o marciano, ele será levado para Marte. Escreva um programa para este jogo, com dois jogadores, onde um escolhe a árvore em que o marciano irá se esconder, e o outro tenta acertar.
+
+## Estruturas de dados
+
+1. Escreva um programa que receba dez nomes do usuário, armazene-os em um vetor e ao final mostre a listagem, indicando a ordem de entrada de cada nome.
+
+2. Escreva um programa que crie um vetor com 10 posições e receba seus valores do usuário. Ao final deverá mostrar somente os valores acima da média.
+
+3. Escreva um programa que crie uma lista com 5 nomes para guardar. O vetor deve ser preenchido pelo usuário e ao
+final deve ser feita uma consulta com um novo nome para saber se ele está ou não cadastrado.
+
+4. Escreva uma função que dado um valor `n` crie uma lista com `n` posições aleatórias.
+
+5. Escreva um programa que mostre na tela os quadrados de 1 até 15.
+
+6. Escreva um programa que crie um vetor com 20 valores inteiros aleatórios (entre 0 e 999).
+
+7. Escreva um programa que dado dois vetores indique os elementos que estão presentes nos dois vetores.
+
+8. Escreva uma função que dado um vetor calcule sua somatório e média.
+
+9. Escreva uma função que adicione um valor em uma lista somente se ele não estiver presente.
+
+10. Escreva um programa que receba um vetor e normalize seus valores entre `[0.0, 1.0[`
+
+11. Escreva um programa que receba um valor `n` de altura e desenhe um triângulo dessa altura na tela
+```
+Altura: 3
+  *
+ ***
+*****
+Altura: 4
+   *
+  ***
+ *****
+*******
+```
+
+12. Escreva uma funçao que multiplique dois vetores.
+
+13. Escreva um programa quer faça o controle de estoque de uma loja. Em um menu deve ter as opções:
+    * cadastrar produto
+    * editar produto
+    * vender pruduto
+    * gerar relatório   
+    
+    Na opção de cadastro o usuário deve entrar com:
+    * nome do produto
+    * preço
+    * tipo  
+    
+    Para cada produto cadastrado deve ser gerado um código.  
+    Na opção de editar deve permitir atualização do nome do produto.  
+    Na opção vender produto deve registrar uma venda do produto.  
+    E na opção gerar relatório deve mostrar o valor total ganho e a média por tipo.
+
+
+14. Escreva uma função que dado uma tupla `(m,n)` retorna uma matrix `M` com `m` linhas e `n` colunas de valores aleatórios.
+
+15. Escreva um programa que receba uma matrix `(m,n)` e calcule seu somatório e média.
+
+16. Escreva um programa que peça ao utilizador as temperaturas registadas durante sete dias e guarde os valores numa lista. No final, deverá apresentar:
+- A temperatura mais alta e a mais baixa.
+- Os dias em que a temperatura foi superior à média semanal.
+- O número de dias em que a temperatura foi negativa.
+
+17. Escreva um programa que receba uma frase e armazene cada palavra numa lista. Depois, crie uma nova lista contendo apenas as palavras com mais de cinco letras, mantendo a ordem original.
