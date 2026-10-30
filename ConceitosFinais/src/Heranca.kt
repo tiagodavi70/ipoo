@@ -16,4 +16,6 @@ fun main() {
         println("Entra com os dados de novo.")
     }
 
+    val pessoa3 = Pessoa("Maria", "111111111", "444")
+
 }

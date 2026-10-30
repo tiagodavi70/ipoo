@@ -1,5 +1,7 @@
 # Padrões de sintaxe e grafia
 
+De modo geral, escreva uma classe em cada ficheiro, a não ser que seja uma _Exception_. Deixe um ficheiro separado para execução.
+
 ## Prefira `val` ao invés de `var`
 
 Use imutabilidade sempre que possível.
@@ -17,8 +19,6 @@ var nome: String = "Carlos"
 ```
 
 ## Indique os tipos de variáveis primitivas
-
-Use os tipos primitovs sempre.
 
 Bom:
 
@@ -56,25 +56,25 @@ val qdp = 10
 
 Correto:
 ```kotlin
-class Usuario()
+class Utilizador()
 class CarroEletrico()
 ```
 
 Incorreto:
 ```kotlin
-class usuario()
+class utilizador()
 class carro_eletrico()
 ```
 
 ## Funções em camelCase ou utilizando _
 
-Funções devem indicar ação.
+Funções devem indicar ação e se manter consistente.
 
 Correto:
 
 ```kotlin
 fun calcularTotal(): Double
-fun buscarUsuario(): Usuario
+fun buscarUtilizador(): Usuario
 
 fun calcular_total(): Double
 ```
@@ -83,7 +83,7 @@ Incorreto:
 
 ```kotlin
 fun Total()
-fun Usuario()
+fun Utilizador()
 ```
 
 ## Separe com espaços depois de operadores ou vírgulas

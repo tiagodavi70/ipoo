@@ -27,4 +27,8 @@ abstract class Veiculo {
     fun mostrarVersao(): Double {
         return versao
     }
+
+    override fun toString(): String {
+        return "Veiculo: $modelo $montadora $velocidadeMaxima"
+    }
 }

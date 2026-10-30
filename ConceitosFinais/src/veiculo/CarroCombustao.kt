@@ -15,4 +15,8 @@ class CarroCombustao: Veiculo, Volante {
     override fun virarEsquerda(): String {
         return "esquerda"
     }
+
+    override fun toString(): String {
+        return super.toString() + " combustao"
+    }
 }

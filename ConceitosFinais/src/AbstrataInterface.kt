@@ -14,4 +14,7 @@ fun main() {
     listaVolantes[0].virarEsquerda()
     listaVolantes[1].virarDireita()
     // error listaVolantes[1].velocidadeMaxima
+
+    println(v1)
+    println(v2)
 }
